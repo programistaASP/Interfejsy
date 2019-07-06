@@ -1,9 +1,6 @@
 package zadanie3;
 
-import equalsHascode.Czlowiek;
-
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Comparator;
 
 public class Main {
@@ -24,7 +21,7 @@ public class Main {
         students[2] = student2;
         students[3] = student3;
         students[4] = student4;
-        System.out.println("---------------------Przed-Sortowaniu----------------------------");
+        System.out.println("---------------------Przed-Sortowaniu----------------------------------");
         for (Student student5 : students) {
             System.out.println(student5.toString());
 
@@ -35,7 +32,7 @@ public class Main {
             System.out.println(student5.toString());
 
         }
-        System.out.println("---------------------Po-Sortowaniu----------------------------");
+        System.out.println("---------------------Po-Sortowaniu-malejące----------------------------");
         Arrays.sort(students);
 
 

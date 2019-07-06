@@ -7,6 +7,15 @@ public class Czlowiek implements Comparable {
     int wiek;
 
     @Override
+    public String toString() {
+        return "Czlowiek{" +
+                "imie='" + imie.toString() + '\'' +
+                ", nazwisko='" + nazwisko.toString() + '\'' +
+                ", wiek=" + wiek +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
