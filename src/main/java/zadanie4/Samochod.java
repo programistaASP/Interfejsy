@@ -8,7 +8,6 @@ public class Samochod {
         this.model = model;
         this.kolor = kolor;
     }
-
     @Override
     public String toString() {
         return "Samochod{" +
@@ -17,9 +16,7 @@ public class Samochod {
                 ", kolor='" + kolor.toString() + '\'' +
                 '}';
     }
-
     public void zmienKolor(String kolor) {
         this.kolor = kolor;
     }
-
 }
